@@ -9,6 +9,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    chunkSizeWarningLimit: 1000, // in kilobytes
+  },
   resolve: {
     alias: {
       '@images': '/src/images',
