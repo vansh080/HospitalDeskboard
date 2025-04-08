@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/my-app/',
+  base: '/hospital-deskboard/',
   plugins: [react()],
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg'],
   optimizeDeps: {
