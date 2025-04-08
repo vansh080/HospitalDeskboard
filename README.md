@@ -40,7 +40,7 @@ __________________________________________________
 
       npm start
          or
-    yarn start
+     yarn start
 
 5.Open in Browser :
      The app will be available at http://localhost:3000.
